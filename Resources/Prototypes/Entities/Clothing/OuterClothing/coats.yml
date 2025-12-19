@@ -487,3 +487,15 @@
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatExpensive]
   id: ClothingOuterCoatExpensiveOpened
   name: expensive coat
+
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatyvi
+  name: expensive cyvi
+  description: Very fluffy pink coat, made out of very expensive fur (clearly).
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
